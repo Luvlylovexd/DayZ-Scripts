@@ -2754,6 +2754,11 @@ class DayZGame extends CGame
 		return m_IsCtrlHolding;
 	}
 	
+		bool IsLeftAltDown()
+	{
+		return m_IsLeftAltHolding;
+	}
+	
 	// ------------------------------------------------------------
 	override void OnKeyPress(int key)
 	{
